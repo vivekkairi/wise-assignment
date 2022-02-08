@@ -1,6 +1,4 @@
 import fs from 'fs'
-import Stock from '../classes/Stock.js'
-import Fund from '../classes/Fund.js'
 import * as readline from 'readline'
 import * as path from 'path'
 

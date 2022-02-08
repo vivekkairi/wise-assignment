@@ -1,4 +1,4 @@
-import { handleInput } from './utils/input.js'
+import { handleInput } from './core.js'
 import { prompt } from './utils/general.js'
 
 const main = async () => {

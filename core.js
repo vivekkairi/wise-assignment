@@ -1,7 +1,7 @@
-import Portfolio from '../classes/Portfolio.js'
-import Exchange from '../classes/Exchange.js'
-import { COMMANDS } from './constants.js'
-import CustomError from './error.js'
+import Portfolio from './classes/Portfolio.js'
+import Exchange from './classes/Exchange.js'
+import { COMMANDS } from './utils/constants.js'
+import CustomError from './utils/error.js'
 
 export const handleInput = async (input) => {
 	let exchange = new Exchange()
