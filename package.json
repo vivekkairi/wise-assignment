@@ -1,0 +1,17 @@
+{
+	"name": "wise-assignment",
+	"version": "1.0.0",
+	"description": "MF overlap calculator",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"test": "mocha tests/**/*.test.js",
+		"dev": "node main.js"
+	},
+	"author": "Vivek Kairi",
+	"license": "ISC",
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^9.2.0"
+	}
+}
